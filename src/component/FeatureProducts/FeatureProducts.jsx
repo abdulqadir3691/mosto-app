@@ -7,6 +7,7 @@ import Item3 from "../../asset/images/Feature-Item-3.svg";
 import Item4 from "../../asset/images/Feature-Item-4.svg";
 import Item5 from "../../asset/images/Feature-Item-5.svg";
 import Item6 from "../../asset/images/Feature-Item-6.svg";
+import Vector from '../../asset/images/slice-vector.svg';
 
 const FeatureProducts = () => {
   return (
@@ -33,6 +34,7 @@ const FeatureProducts = () => {
             </div>
           </div>
         </div>
+        <img className="img-fluid" src={Vector} alt="" />
       </div>
     </div>
   );
