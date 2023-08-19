@@ -1,0 +1,23 @@
+.bg-image{
+    background-image: url(../../asset//images/background-Image.svg);
+    height: 100vh;
+    fill-opacity: cover;
+    background-position: center center;
+}
+.btn-bg{
+    background: #f44336;
+  }
+
+@media (max-width: 768px) {
+    .bg-image {
+      /* Adjust styles for smaller screens */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    }
+    .search-us{
+        padding-bottom: 15rem;
+    }
+
+  }
